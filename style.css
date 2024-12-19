@@ -1,0 +1,29 @@
+body {
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.square {
+  border: 1px solid black;
+	width: 150px;
+	height: 150px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+#gameboard {
+	display: grid;
+	gap: 5px;
+	grid-template-columns: repeat(3, 150px);
+	grid-template-rows: repeat(3, 150px);
+	place-content: center;
+}
+
+#controls {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
